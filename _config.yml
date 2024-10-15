@@ -2,6 +2,7 @@ title: XBCAD7319-Group17
 description: Documentation for XBCAD7319-Group17
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: "https://xbcad7319-group17.github.io"
+baseurl: "/Docs"
 
 color_scheme: dark
