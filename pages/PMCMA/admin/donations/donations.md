@@ -84,9 +84,9 @@ public class DonationsViewModel
      - First, the total amount of donations for the current month is determined.
      - Then, the total for the previous month is calculated.
      - Finally, the increase percentage is computed using the formula:
-       \[
-       \text{Portfolio Increase Percentage} = \left(\frac{\text{Current Month Donations} - \text{Previous Month Donations}}{\text{Previous Month Donations}}\right) \times 100
-       \]
+    ```
+       Portfolio Increase Percentage = (Current Month Donations - Previous Month Donations) / (Previous Month Donations) * 100
+    ```
      - If there were no donations in the previous month, the percentage is set to zero to avoid division by zero.
 
 3. **AllDonations**:
